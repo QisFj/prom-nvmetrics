@@ -8,6 +8,6 @@ arguments: >
 log:
     mode: roll
 delayedAutoStart: true
-onfailure:
+onFailure:
   - action: restart
     delay: 10 sec
