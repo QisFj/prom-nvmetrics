@@ -1,3 +1,8 @@
+# why fork 
+
+- to allow multi GPUs
+- [WIP] adpat to winsw
+
 # A simple prometheus exporter for metrics of NVIDIA based GPUs
 * Inofficial no affiliation with NVIDIA
 * For usage in a grafana https://grafana.com/ + prometheus https://prometheus.io/ monitoring setup
