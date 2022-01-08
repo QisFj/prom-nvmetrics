@@ -1,7 +1,12 @@
 # why fork 
 
 - to allow multi GPUs
-- [WIP] adpat to winsw
+
+- adpat to winsw:
+
+    use prom_nvmetrics.exe to run, see https://github.com/winsw/winsw/tree/master#usage for more.
+
+    winsw binary version: [v2.11.0-x64](https://github.com/winsw/winsw/releases/download/v2.11.0/WinSW-x64.exe)
 
 # A simple prometheus exporter for metrics of NVIDIA based GPUs
 * Inofficial no affiliation with NVIDIA

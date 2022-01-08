@@ -1,0 +1,13 @@
+id: prom-nvmetrics
+name: prom-nvmetrics
+description: A simple prometheus exporter for metrics of NVIDIA based GPUs.
+
+executable: python
+arguments: >
+    %BASE%/prom_nvmetrics.py
+log:
+    mode: roll
+delayedAutoStart: true
+onfailure:
+  - action: restart
+    delay: 10 sec
